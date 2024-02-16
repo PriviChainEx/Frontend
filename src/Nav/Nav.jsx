@@ -25,13 +25,7 @@ function Nav() {
           </Link>
         </NavbarItem>    
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem>
-          <Button as={Link}  href="#" variant="solid" size="sm" className="connect__button">
-            Connect wallet
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
+      
     </Navbar>
       </>
     )
