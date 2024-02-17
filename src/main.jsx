@@ -9,11 +9,15 @@ import './Chart/chart.css'
 import './Trade/trade.css'
 import './Price/price.css'
 import './Asset/asset.css'
+import './SignIn/signin.css'
+import './SignUp/signup.css'
 import '../src/Landing/Hero/hero.css'
 import Landing from '../src/Landing/Landing.jsx'
 import Nav from './Nav/Nav.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx'
 import Asset from './Asset/Asset.jsx'
+import SignIn from './SignIn/SignIn.jsx'
+import SignUp from './SignUp/SignUp.jsx'
 import { NextUIProvider } from '@nextui-org/react';
 
 const router = createBrowserRouter([
@@ -43,7 +47,14 @@ const router = createBrowserRouter([
       <Nav />
       <Asset />
     </> 
+  },{
+    path:'/signin',
+    element:<SignIn />
   },
+  {
+    path:'/signup',
+    element:<SignUp/>
+  }
   
   
 ])
