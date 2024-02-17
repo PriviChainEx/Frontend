@@ -8,8 +8,8 @@ function Position() {
         <table>
         <thead>
     <tr >
-      <th scope="col" >Market</th>
-      <th scope="col" style={{paddingRight:'50px',paddingLeft:'50px'}}>Quantity</th>
+      <th scope="col">Company</th>
+      <th scope="col" style={{paddingRight:'50px',paddingLeft:'50px',}}>Quantity</th>
       <th scope="col" style={{paddingRight:'50px'}}>Value</th>
       <th scope="col" style={{paddingRight:'50px'}}>Side</th>
       <th scope="col" style={{paddingRight:'50px'}}>Unrealised P&L</th>
@@ -20,57 +20,57 @@ function Position() {
   </thead>
   <tbody>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
+      <th style={{color:'white',}}>Microsoft </th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>50000</th>
+      <td>404.3</td>
       <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <td>40.45</td>
+      <td>20.02</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
-      <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <th style={{color:'white'}}>Amazon INC </th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>71000</th>
+      <td>169.51</td>
+      <td>Short</td>
+      <td>10.9825</td>
+      <td>16.985</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
-      <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <th style={{color:'white'}}>Apple Inc</th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>80000</th>
+      <td>184.32</td>
+      <td>Short</td>
+      <td>14.352</td>
+      <td>11.857</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
+      <th style={{color:'white'}}>Meta </th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>100000</th>
+      <td>473.32</td>
       <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <td>32.569</td>
+      <td>25.632</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
+      <th style={{color:'white'}}>AMD</th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>70000</th>
+      <td>173.87</td>
       <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <td>12.598</td>
+      <td>10.587</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
     <tr>
-      <th style={{color:'white'}}>BTC/USD</th>
-      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>0.12BTC</th>
-      <td>350USD</td>
-      <td>Long</td>
-      <td>xyz</td>
-      <td>xyz</td>
+      <th style={{color:'white'}}>Intel Corp</th>
+      <th scope="row" style={{color:'#28C59F',paddingLeft:'8px'}}>90000</th>
+      <td>43.51</td>
+      <td>Short</td>
+      <td>3.589</td>
+      <td>3.989</td>
       <td style={{cursor:'pointer'}}>close</td>
     </tr>
   </tbody>

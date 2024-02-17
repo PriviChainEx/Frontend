@@ -26,7 +26,7 @@ function Box() {
                     <table>
                     <thead>
     <tr >
-      <th scope="col" >MARKET</th>
+      <th scope="col" >Company</th>
       <th scope="col" style={{paddingRight:'50px'}}>24 Hour</th>
       <th scope="col" style={{paddingRight:'50px'}}>Price</th>
       <th scope="col" style={{paddingRight:'50px'}}>7 Days</th>
@@ -35,10 +35,10 @@ function Box() {
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row" style={{color:'white'}}>ETH/USD</th>
-      <td>0.10016</td>
-      <td>22</td>
+    <tr style={{cursor:'pointer'}} onClick={onClose}>
+      <th scope="row" style={{color:'white'}}>Apple</th>
+      <td>1.51</td>
+      <td>184.32</td>
       <td><Line
     width={100}
     height={50}
@@ -60,7 +60,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [500, 320, 40, 70, 680, 990, 800, 950],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -99,10 +99,10 @@ function Box() {
 </td>
         
     </tr>
-    <tr>
-      <th scope="row" style={{color:'white'}}>ETH/USD</th>
-      <td>0.10016</td>
-      <td>22</td>
+    <tr style={{cursor:'pointer'}} onClick={onClose}>
+      <th scope="row" style={{color:'white'}}>Microsoft</th>
+      <td>0.61</td>
+      <td>404.3</td>
       <td><Line
     width={100}
     height={50}
@@ -124,7 +124,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [10, 30, 100, 550, 200, 620, 880, 950],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -153,7 +153,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [900, 820, 400, 590, 500, 790, 850, 1000],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -163,10 +163,10 @@ function Box() {
 </td>
         
     </tr>
-    <tr>
-      <th scope="row" style={{color:'white'}}>ETH/USD</th>
-      <td>0.10016</td>
-      <td>22</td>
+    <tr onClick={onClose}>
+      <th scope="row" style={{color:'white' , cursor:'pointer'}}>Amazon INC</th>
+      <td>0.17</td>
+      <td>169.51</td>
       <td><Line
     width={100}
     height={50}
@@ -188,7 +188,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [990, 800, 400, 550, 660, 790, 456, 650],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -217,7 +217,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [500, 500, 400, 550, 660, 790, 400, 600],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -227,10 +227,10 @@ function Box() {
 </td>
         
     </tr>
-    <tr>
-      <th scope="row" style={{color:'white'}}>ETH/USD</th>
-      <td>0.10016</td>
-      <td>22</td>
+    <tr onClick={onClose}>
+      <th scope="row" style={{color:'white',cursor:'pointer'}}>Meta</th>
+      <td>0.33</td>
+      <td>473.32</td>
       <td><Line
     width={100}
     height={50}
@@ -252,7 +252,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [650, 330, 400, 950, 266, 652, 992, 156],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -281,7 +281,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [700, 306, 451, 988, 660, 844, 896, 645],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -291,10 +291,10 @@ function Box() {
 </td>
         
     </tr>
-    <tr>
-      <th scope="row" style={{color:'white'}}>ETH/USD</th>
-      <td>0.10016</td>
-      <td>22</td>
+    <tr onClick={onClose} style={{cursor:'pointer'}}>
+      <th scope="row" style={{color:'white'}}>Intel Corp</th>
+      <td>0.54</td>
+      <td>43.51</td>
       <td><Line
     width={100}
     height={50}
@@ -316,7 +316,7 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [30, 30, 400, 550, 660, 983, 894, 641],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
@@ -345,19 +345,17 @@ function Box() {
         labels: [13, 14, 15, 16, 17, 18, 19, 20],
         datasets: [{
             label: 'Revenue',
-            data: [200, 30, 400, 550, 660, 790, 800, 950],
+            data: [800, 660, 930, 653, 665, 918, 165, 615],
             fill: false,
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1
         }]
     }}
 />
-</td>
-        
-    </tr>
-    
+</td>        
+    </tr>   
   </tbody>
-                    </table>
+</table>
                 </div>
             
               </ModalBody>
@@ -369,23 +367,23 @@ function Box() {
         <Button onPress={onOpen} style={{backgroundColor:'#092879',color:'white',width:'100%' , height:'100%'}} radius='none'>BTC/USD</Button>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
-            <p style={{color:'#28C59F'}}>62,238.00</p>
+            <p style={{color:'#28C59F'}}>182.31</p>
             <p style={{color:'white',fontSize:'14px'}}>Last market price</p>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
-            <p style={{color:'#28C59F'}}>1.75%</p>
+            <p style={{color:'#28C59F'}}>1.55%</p>
             <p style={{color:'white'}}>24h change</p>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
-            <p style={{color:'#28C59F'}}>63,597.80</p>
+            <p style={{color:'#28C59F'}}>184.85</p>
             <p style={{color:'white'}}>24h high</p>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
-            <p style={{color:'#28C59F'}}>60,322.6</p>
+            <p style={{color:'#28C59F'}}>181.66</p>
             <p style={{color:'white'}}>24h low</p>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
-            <p style={{color:'#28C59F'}}>2,548,722,097.16</p>
+            <p style={{color:'#28C59F'}}>49,752,465</p>
             <p style={{color:'white'}}>Market Volume</p>
         </div>
       </div>

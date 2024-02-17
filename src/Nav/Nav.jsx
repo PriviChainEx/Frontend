@@ -10,7 +10,7 @@ function Nav() {
       </NavbarBrand>
       <NavbarContent className="sm:flex gap-4" justify="start">
         <NavbarItem>
-          <Link style={{color:'#E5E7EB'}} to='/trade'>
+          <Link style={{color:'#E5E7EB' ,fontWeight:'500'}} to='/trade'>
             TRADE
           </Link>
         </NavbarItem>
@@ -21,7 +21,7 @@ function Nav() {
         </NavbarItem>
         <NavbarItem isActive>
           <Link to='/asset' style={{color:'#E5E7EB'}}>
-         ASSET
+          HISTORY
           </Link>
         </NavbarItem>    
       </NavbarContent>

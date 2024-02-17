@@ -11,11 +11,11 @@ function Hero() {
         </div>
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'2rem'}}>
         <div className="about__us">
-            <p style={{fontSize:'32px',fontWeight:'500'}}>The Bloomberg Terminal revolutionized an industry by bringing transparency to financial markets. More than four decades on, it remains at the cutting edge of innovation and information delivery — with fast access to news, data, unique insight and trading tools helping leading decision makers turn knowledge into action.</p>
+            <p style={{fontSize:'32px',fontWeight:'500'}}>Introducing our revolutionary decentralized blockchain-based stock trading terminal, the cutting-edge solution for traders seeking unparalleled security, transparency, and efficiency in the financial markets. </p>
         </div>
         </div>
 
-        <div style={{display:'flex',flexDirection:'row',justifyContent:'space-around',flexWrap:'wrap',gap:'32px',marginTop:'3rem'}}>
+        <div style={{display:'flex',flexDirection:'row',justifyContent:'space-around',flexWrap:'wrap',gap:'120px',marginTop:'3rem'}}>
             <div style={{width:'350px',height:'350px',border:'3px solid #454FFA',textAlign:'center',display:'flex',flexDirection:'column', gap:'32px',justifyContent:'center',alignItems:'center',borderRadius:'16px'}}>
                 <h1 style={{color:'white',fontSize:'26px',fontWeight:'500'}}>Centralized Access</h1>
                 <p style={{color:'white'}}>Easily manage multiple exchanges and trading pairs in one place.</p>
