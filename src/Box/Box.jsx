@@ -1,5 +1,4 @@
 import {Modal, ModalContent, ModalHeader, ModalBody,  Button, useDisclosure} from "@nextui-org/react";
-import {Chart as ChartJS} from 'chart.js/auto'
 import {Line} from 'react-chartjs-2'
 
 function Box() {
