@@ -37,3 +37,8 @@ background: linear-gradient(to right, #1354FF 0%, #EB23E1 100%);
 -webkit-text-fill-color: transparent;
 
 }
+
+
+.hover:hover{
+    background-color: #454FFA;
+}

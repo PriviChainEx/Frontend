@@ -8,7 +8,7 @@ export default function SignIn() {
     <div className="sign__form">
     <h1 className="text-white sign__text">Sign In to Your Account</h1>
       
-    <Input type="email"  placeholder="Email" variant="bordered"  className="inputClassName" style={{color:'white'}}/>
+    <Input type="name"  placeholder="User Name" variant="bordered"  className="inputClassName" style={{color:'white'}}/>
     <Input type="password" placeholder="Password" variant="bordered" style={{borderColor:'#ffffff',color:'white'}}  className="inputClassName"/>
 
       <Link to="/">

@@ -58,26 +58,29 @@ function Portfolio() {
 
          <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',gap:'16px'}}>
          
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
             <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>Microsoft</p>
-            </div>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/microsoft.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Microsoft Inc </p>             </div>
             <div>
                 <p style={{color:'white'}}>$3,06,432.00</p>
             </div>
          </div>
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
             <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>Amazon INC</p>
-            </div>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/amazon.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Amazon INC </p>             </div>
             <div>
                 <p style={{color:'white'}}>$8,40,915.00</p>
             </div>
          </div>
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
-            <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>Apple Inc</p>
-            </div>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/apple.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Apple Inc </p>             </div>
             <div>
                 <p style={{color:'white'}}>$6,87,643.00</p>
             </div>
@@ -86,26 +89,29 @@ function Portfolio() {
          </div>
          <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',gap:'16px'}}>
          
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
-            <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>Meta</p>
-            </div>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/meta.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Meta </p>             </div>
             <div>
                 <p style={{color:'white'}}>$1,56,984</p>
             </div>
          </div>
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
-            <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>AMD</p>
-            </div>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+           <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/amd.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      AMD </p>             </div>
             <div>
                 <p style={{color:'white'}}>$456,847</p>
             </div>
          </div>
-         <div style={{width:'244px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
-            <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
-                <p style={{color:'white'}}>Intel Corp</p>
-            </div>
+         <div style={{width:'300px', height:'56px', backgroundColor:'#000F37',display:'flex',flexDirection:'row',justifyContent:"space-between",alignItems:'center'}}>
+         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',gap:'2px',alignItems:'center',margin:'1rem',paddingBottom:'8px'}}>
+            <p style={{color:'white',display:'flex',flexDirection:'row', width:'140px',gap:'4px'}}>
+      <img src="./src/assets/intel.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Intel Corp</p>             </div>
             <div>
                 <p style={{color:'white'}}>$6,74,492</p>
             </div>

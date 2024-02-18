@@ -36,8 +36,9 @@ function Box() {
   </thead>
   <tbody>
     <tr style={{cursor:'pointer'}} onClick={onClose}>
-      <th scope="row" style={{color:'white'}}>Apple</th>
-      <td>1.51</td>
+    <th style={{display:'flex',flexDirection:'row', width:'100px',gap:'4px',color:'white',marginTop:'2.1rem'}}>
+      <img src="./src/assets/apple.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Apple Inc</th>      <td>1.51</td>
       <td>184.32</td>
       <td><Line
     width={100}
@@ -100,8 +101,9 @@ function Box() {
         
     </tr>
     <tr style={{cursor:'pointer'}} onClick={onClose}>
-      <th scope="row" style={{color:'white'}}>Microsoft</th>
-      <td>0.61</td>
+    <th style={{display:'flex',flexDirection:'row', width:'100px',gap:'4px',color:'white',marginTop:'2.3rem'}}>
+      <img src="./src/assets/microsoft.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Microsoft</th>       <td>0.61</td>
       <td>404.3</td>
       <td><Line
     width={100}
@@ -164,8 +166,9 @@ function Box() {
         
     </tr>
     <tr onClick={onClose}>
-      <th scope="row" style={{color:'white' , cursor:'pointer'}}>Amazon INC</th>
-      <td>0.17</td>
+    <th style={{display:'flex',flexDirection:'row', width:'120px',gap:'4px',color:'white',marginTop:'2.3rem'}}>
+      <img src="./src/assets/amazon.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Amazon INC</th>       <td>0.17</td>
       <td>169.51</td>
       <td><Line
     width={100}
@@ -228,8 +231,9 @@ function Box() {
         
     </tr>
     <tr onClick={onClose}>
-      <th scope="row" style={{color:'white',cursor:'pointer'}}>Meta</th>
-      <td>0.33</td>
+    <th style={{display:'flex',flexDirection:'row', width:'100px',gap:'4px',color:'white',marginTop:'2.3rem'}}>
+      <img src="./src/assets/meta.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Meta</th>       <td>0.33</td>
       <td>473.32</td>
       <td><Line
     width={100}
@@ -292,8 +296,9 @@ function Box() {
         
     </tr>
     <tr onClick={onClose} style={{cursor:'pointer'}}>
-      <th scope="row" style={{color:'white'}}>Intel Corp</th>
-      <td>0.54</td>
+    <th style={{display:'flex',flexDirection:'row', width:'100px',gap:'4px',color:'white',marginTop:'2.3rem'}}>
+      <img src="./src/assets/intel.png" alt="" style={{height:'16px' , width:'16px'}}/>
+      Intel Corp</th>       <td>0.54</td>
       <td>43.51</td>
       <td><Line
     width={100}
@@ -364,7 +369,10 @@ function Box() {
         </ModalContent>
       </Modal>
         <div className="selector">
-        <Button onPress={onOpen} style={{backgroundColor:'#092879',color:'white',width:'100%' , height:'100%'}} radius='none'>BTC/USD</Button>
+        <div style={{backgroundColor:'#092879',height:'100%',display:'flex',justifyContent:'center',alignItems:'center'}}>
+        <img src="./src/assets/apple.png" alt=""  style={{backgroundColor:'#092879'}}/>
+        </div>
+        <Button onPress={onOpen} style={{color:'white', height:'100%',backgroundColor:'#092879'}} radius='none'>Apple Inc</Button>
         </div>
         <div style={{display:'flex',justifyContent:'center',flexDirection:'column',width:'130px',height:'60px',alignItems:'center'}}>
             <p style={{color:'#28C59F'}}>182.31</p>
